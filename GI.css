@@ -5,8 +5,18 @@
 
 .body-bg-img {
 	background-image: url(GI.png);
-	background-size: 100% 100%;
 	background-attachment:fixed;
+	background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    min-height: 100%;
 	font-family: avenir;
 }
 
